@@ -1,0 +1,43 @@
+#header {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  background-color: rgb(241, 237, 245);
+  width: 100%;
+  left: 0;
+}
+
+#nav-bar {
+  display: flex;
+}
+
+#header li {
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+}
+
+#header li a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+#Home {
+  height: auto;
+}
+
+main {
+  margin-top: 70px;
+  padding: 0 40px;
+}
+
+iframe {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(251, 251, 251);
+  }
+  
+}
